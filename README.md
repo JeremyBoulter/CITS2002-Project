@@ -3,7 +3,8 @@ Systems Programming Project 2 for 2023
 
 The goal of this project was to design and develop a command-line utility program, named mysync, to synchronise the contents of two or more directories.
 
-Program invocation: prompt> ./mysync  [options]  directory1  directory2  [directory3  ...]
+Program invocation:
+prompt> ./mysync  [options]  directory1  directory2  [directory3  ...]
 
 The program's options are:
 -v : Verbose output to stdout.
