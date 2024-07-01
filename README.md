@@ -7,6 +7,7 @@ Program invocation:
 prompt> ./mysync  [options]  directory1  directory2  [directory3  ...]
 
 The program's options are:
+
 -v : Verbose output to stdout.
 
 -r : Synchronise subdirectories (enable recursion).
