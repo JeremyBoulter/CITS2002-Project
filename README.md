@@ -26,5 +26,3 @@ Note that, because the shell expands wildcards, that you'll need to enclose your
 prompt> ./mysync  -o  '*.[ch]'  ....
 
 The project spec can be found in full at: https://teaching.csse.uwa.edu.au/units/CITS2002/past-projects/p2023-2/summary.php
-
-This project recieved a final mark of 96%.
