@@ -8,11 +8,17 @@ prompt> ./mysync  [options]  directory1  directory2  [directory3  ...]
 
 The program's options are:
 -v : Verbose output to stdout.
+
 -r : Synchronise subdirectories (enable recursion).
+
 -a : Synchronise hidden files (starting with .).
+
 -n : Does't actually perform the sync (also enables -v).
+
 -p : Preserve timestamp / permissions when synchronising.
+
 -o $ : Only filenames matching the pattern $ will be synchronised.
+
 -i $ : Filenames matching pattern $ will be ignored.
 
 Note that, because the shell expands wildcards, that you'll need to enclose your file patterns within single-quotation characters. For example, the following command will (only) synchronise your C11 files:
